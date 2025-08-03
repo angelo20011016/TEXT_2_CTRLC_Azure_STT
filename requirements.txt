@@ -1,0 +1,6 @@
+azure-cognitiveservices-speech
+pynput
+PySide6
+sounddevice
+numpy
+scipy

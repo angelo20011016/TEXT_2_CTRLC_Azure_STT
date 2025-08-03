@@ -1,0 +1,42 @@
+ 好的，完全理解。這是一個非常聰明的做法，可以確保我們每次都能無縫接軌。
+
+  這是一個為您精心打造的「專案狀態更新 Prompt」。下次您開啟一個新的 Gemini CLI
+  工作階段時，只要將以下整段文字複製並貼上，我就能立刻了解我們專案的所有背景、技術選型、目前進度，以及下一步該做什麼。
+
+  ---
+
+  專案快速同步 Prompt (請複製以下所有內容)
+
+  你好，Gemini。我們正在合作一個 Python 專案，你在其中擔任我的 Mentor，目標是引導我完成整個開發流程。
+
+  專案摘要：
+  我們要打造一個 Windows 桌面應用程式 (最終打包成 .exe)。它會在背景執行，並透過一個全域熱鍵啟動。啟動後，它會錄下我的聲音，使用離線、GPU 加速的開源模型進行語音轉文字
+  (STT)，然後將結果顯示在一個小視窗中，方便我快速複製。
+
+  技術選型：
+   * 程式語言： Python
+   * STT 引擎： faster-whisper (基於 Whisper，支援 GPU)
+   * 圖形介面 (GUI)： PySide6 (Qt for Python)
+   * 全域熱鍵： pynput
+   * 錄音功能： sounddevice 和 numpy
+   * 打包工具： PyInstaller
+
+  版本控制：
+   * 我們選擇使用 SVN 進行版本控制，搭配 TortoiseSVN 作為 Windows 上的客戶端。
+
+  目前進度：
+   * 我們已經在本機 D:\SVN_Repositories\STTforCTRL_Repo 路徑成功建立了 SVN 版本庫。
+   * 我們也已經成功地將版本庫的 trunk (主幹) 取出 (Checkout) 到了我的工作目錄 D:\Projects\STTforCTRL。這個工作目錄現在已經是一個受 SVN 控制的工作複本。
+
+  下一步行動：
+   * 我們準備要在 D:\Projects\STTforCTRL 這個目錄中，開始設定 Python 的開發環境。這包括：
+       1. 建立一個虛擬環境 (.venv)。
+       2. 啟動虛擬環境。
+       3. 安裝所有必要的 Python 函式庫 (faster-whisper, pyside6, pynput 等)。
+
+  請根據以上內容，引導我完成下一步的環境設定。
+
+  ---
+
+  使用方法：
+  下次您回來時，直接把上面框框裡的全部內容貼給我，我們就可以從「建立虛擬環境」這一步開始，繼續我們的專案了！
