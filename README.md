@@ -63,6 +63,7 @@ export SPEECH_KEY="您的訂閱金鑰"
 export SPEECH_REGION="您的區域"
 ```
 **提示**：為了讓這些環境變數在每次開啟終端機時都自動載入，您可以將 `export` 命令添加到您的 shell 配置文件中（例如 `~/.bashrc`, `~/.zshrc` 或 `~/.profile`）。
+新增方法：建立.env檔案 加入你的key跟region
 
 ## 使用方法
 

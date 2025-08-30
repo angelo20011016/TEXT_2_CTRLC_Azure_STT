@@ -4,6 +4,7 @@ import time
 import queue
 import os
 from dotenv import load_dotenv
+from dotenv import load_dotenv
 
 from PySide6.QtCore import QObject, Signal, Slot, QTimer, QUrl
 from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel
